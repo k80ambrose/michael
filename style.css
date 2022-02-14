@@ -1,0 +1,69 @@
+html {
+  cursor: help;
+}
+
+body {
+  background: #FFFFFF;
+  background: -moz-radial-gradient(center, #FFFFFF 0%, #FFFFFF 50%, #FFE9E6 100%);
+  background: -webkit-radial-gradient(center, #FFFFFF 0%, #FFFFFF 50%, #FFE9E6 100%);
+  background: radial-gradient(ellipse at center, #FFFFFF 0%, #FFFFFF 50%, #FFE9E6 100%);
+}
+
+img {
+  cursor: grab;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: none;
+  font-variant: normal;
+  text-transform: none;
+}
+
+button {
+  cursor: cell;
+  color: rgb(0, 0, 0); 
+  font-size: 24px; 
+  line-height: 24px; 
+  padding: 20px; 
+  border-top-left-radius: 40px; 
+  border-top-right-radius: 37px; 
+  border-bottom-right-radius: 39px; 
+  border-bottom-left-radius: 33px; 
+  font-family: Georgia, serif; 
+  font-weight: normal; 
+  text-decoration: none; 
+  font-style: normal; 
+  font-variant-ligatures: normal; 
+  font-variant-caps: normal; 
+  font-variant-east-asian: normal; 
+  font-variant-position: normal; 
+  text-transform: none; 
+  background-image: radial-gradient(rgb(204, 204, 204) 0%, rgb(232, 239, 255) 50%, rgb(244, 199, 255) 100%); 
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+  display: inline-block;
+} 
+
+Button:active {
+  background: aliceblue;
+  font-style: italic;
+}
